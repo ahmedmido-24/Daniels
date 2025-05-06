@@ -85,6 +85,10 @@ body {
   opacity: 1;
   top: 4px;
 }
+.Portfolio .container .box-layer i:hover{
+  color: #000 !important;
+  background-color: white !important;
+}
 .carousel-indicators {
   bottom: -20px;
 }
