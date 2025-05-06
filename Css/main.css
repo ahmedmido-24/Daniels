@@ -8,7 +8,6 @@
 .monster{
   font-family: "Montserrat", sans-serif;
 }
-
 *,
 body {
   scroll-behavior: smooth;
@@ -35,6 +34,14 @@ body {
 }
 .navbar .nav-item:hover .nav-link{
   border-bottom: 1px solid black !important;
+}
+.section-two .container .buttons .first:hover{
+  background-color: white !important;
+  color: #000 !important;
+}
+.section-two .container .buttons .second:hover{
+  background-color: rgb(0, 0, 0) !important;
+  color: #ffffff !important;
 }
 .section-two .container .primo {
   content: "";
