@@ -1,0 +1,173 @@
+/* google font  */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.Boob{
+  font-family: "Poppins", sans-serif;
+}
+.monster{
+  font-family: "Montserrat", sans-serif;
+}
+
+*,
+body {
+  scroll-behavior: smooth;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  font-family: "Poppins", sans-serif;
+}
+.spacial-heading .speacial::before {
+  content: "";
+  background-image: url(../Images/dots.png);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 114px;
+  height: 50%;
+  transform: translate(-51%, 30%);
+  z-index: 1;
+}
+.navbar .nav-item .nav-link{
+  color: #949494 !important;
+}
+.navbar .nav-item:hover .nav-link{
+  border-bottom: 1px solid black !important;
+}
+.section-two .container .primo {
+  content: "";
+  background-image: url(../Images/dots.png);
+  width: 70px;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: -70%;
+  transform: translate(155px, 0px);
+  -webkit-transform: translate(-38px, 0);
+  -moz-transform: translate(155px, 0px);
+  -ms-transform: translate(155px, 0px);
+  -o-transform: translate(155px, 0px);
+  z-index: 1;
+}
+.services .container .box:hover i {
+  background-color: #000;
+  color: aliceblue;
+}
+.Portfolio .container .nav .active {
+  border-bottom: 1px solid black !important;
+}
+.Portfolio .container .box-layer {
+  background-color: aqua;
+  top: 20px;
+  left: 7px;
+  width: 96%;
+  height: 96%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transform: translate(1px, 2px);
+  -webkit-transform: translate(1px, 2px);
+  -moz-transform: translate(1px, 2px);
+  -ms-transform: translate(1px, 2px);
+  -o-transform: translate(1px, 2px);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  opacity: 0;
+}
+.Portfolio .container .smash:hover .box-layer {
+  opacity: 1;
+  top: 4px;
+}
+.carousel-indicators {
+  bottom: -20px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #585f62;
+}
+
+.team .container .imagee .icons {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: -5%;
+  left: 5px;
+  transform: translate(0px, -24px);
+  height: 98%;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transition: 1s;
+  -webkit-transition: 1s 1s;
+  -moz-transition: 1s 1s;
+  -ms-transition: 1s 1s;
+  -o-transition: 1s 1s;
+  opacity: 0;
+  width: 97% !important;
+  margin: auto;
+}
+.team .container .imagee .icons .smile {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.team .container .imagee:hover .icons {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  opacity: 1;
+}
+.team .container .imagee .icons i:hover {
+  color: #000;
+  background-color: aliceblue !important;
+  border: 2px solid !important;
+}
+.team .container .imagee:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.contact .container .col-sm-12:hover i {
+  background-color: #000;
+  color: aliceblue;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.contact .container .btn:hover {
+  background-color: aliceblue !important;
+  color: #000 !important;
+  border: 1px solid !important;
+}
+.footer {
+  background-color: #1c1c1c;
+  color: #747f7e;
+}
