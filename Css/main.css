@@ -178,6 +178,11 @@ body {
   color: #000 !important;
   border: 1px solid !important;
 }
+.form-control:focus {
+  border-color: #000 !important; 
+  box-shadow: none !important;   
+  outline: none !important;      
+}
 .footer {
   background-color: #1c1c1c;
   color: #747f7e;
